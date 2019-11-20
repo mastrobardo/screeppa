@@ -13,7 +13,7 @@ const UPG = 'TECH-';
 module.exports.loop = function () {
     
     const SPAWNER =   Game.spawns[SPAWN];
-    
+    console.log('spawna')
     for(let name in Memory.creeps) {
         if(!Game.creeps[name]) {
             delete Memory.creeps[name];
